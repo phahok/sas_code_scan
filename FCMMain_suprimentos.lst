@@ -1,0 +1,46 @@
+                                                           The SAS System                Thursday, December  3, 2020 04:10:00 AM   1
+
+                                                       The COMPARE Procedure
+                                        Comparison of LSUJA.LISTA_SUJA with WORK.LISTA_NOVA
+                                                           (Method=EXACT)
+
+                                                         Data Set Summary
+
+                                 Dataset                    Created          Modified  NVar    NObs
+
+                                 LSUJA.LISTA_SUJA                 .                 .    12       .
+                                 WORK.LISTA_NOVA   03DEC20:04:11:04  03DEC20:04:11:04    12     113
+
+
+                                                         Variables Summary
+
+                                         Number of Variables in Common: 12.
+                                         Number of Variables with Differing Attributes: 12.
+                                         Number of ID Variables: 1.
+                                         Number of VAR Statement Variables: 1.
+
+
+                                       Listing of Common Variables with Differing Attributes
+
+                             Variable     Dataset           Type  Length  Format  Informat  Label
+
+                             ID_CNPJ_CPF  LSUJA.LISTA_SUJA  Char     200  $200.   $200.     ID_CNPJ_CPF
+                                          WORK.LISTA_NOVA   Char     200
+
+
+                                                        Observation Summary
+
+                                         Observation      Base  Compare  ID
+
+                                         First Obs           1        1  ID_CNPJ_CPF=00975051709
+                                         Last  Obs         113      113  ID_CNPJ_CPF=96700190606
+
+                                  Number of Observations in Common: 113.
+                                  Total Number of Observations Read from LSUJA.LISTA_SUJA: 113.
+                                  Total Number of Observations Read from WORK.LISTA_NOVA: 113.
+
+                                  Number of Observations with Some Compared Variables Unequal: 0.
+                                  Number of Observations with All Compared Variables Equal: 113.
+
+                                  NOTE: No unequal values were found. All values compared are exactly equal.
+
